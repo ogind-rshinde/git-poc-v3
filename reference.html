@@ -26,7 +26,7 @@
     </nav>
     <main>
     <h2>Git Quick Reference</h2>
-    <p>As I was learning Git one of the things that frustrated me the most was how references and tutorials would either assume you would know exactly what a command meant or would simply show you a command to enter without explaining what it was doing. Because of this I wanted it to create a quick reference for common Git commands. This list is by no means exhaustive, but it should provide you with a solid reference to the most common commands you encounter.</p>
+    <p>B1 development - As I was learning Git one of the things that frustrated me the most was how references and tutorials would either assume you would know exactly what a command meant or would simply show you a command to enter without explaining what it was doing. Because of this I wanted it to create a quick reference for common Git commands. This list is by no means exhaustive, but it should provide you with a solid reference to the most common commands you encounter.</p>
     <h3>Installation</h3>
     <p>Helpful installation links. I recommend installing the Github Client. Not only does it give you an intuitive GUI interface for common Git tasks, it also does a stable installation of Git as well. For Windows it installs a shell emulator that gives you access to the command line. On the Mac be sure to choose to install the Command Line tools as part of the client install. Without them some path references might not resolve.</p>
     <p><a href="http://git-scm.com/download/mac" title="Install Git for Mac">Git installer for Mac</a></p>
@@ -41,8 +41,8 @@
     <p>Will list available config options.</p>
     <h5>Setting the default editor</h5>
       <pre><code>git config --global core.editor &lt;tool&gt;</code></pre>
-    <p>If you want to use a different editor than Vim or Vi you can set that by adding your tool of choice here.</p>
-    <h4>Global ignore file</h4>
+    <p>B1 - If you want to use a different editor than Vim or Vi you can set that by adding your tool of choice here.</p>
+    <h4>B1 - modifications, Global ignore file</h4>
     <pre><code>git config --global core.excludesfile ~/.gitignore_global</code></pre>
     <p>.gitignore files can help you decide which files are tracked or not in local repositories. However if you ever want files to be ignored globally across all repositories you can use this command. Just create a plain text file, name it what you&rsquo;d like and point to it after the core.excludesfile command. Here the example &ldquo;.gitignore_global&rdquo; is used. Github has a link to common configurations that can help get you started.</p>
     <h4>Setting aliases</h4> 
