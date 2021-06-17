@@ -2,4 +2,4 @@
 
 echo "Welcome to actions script"
 
-git log --oneline
+git log
