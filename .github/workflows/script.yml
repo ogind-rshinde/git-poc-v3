@@ -27,4 +27,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: branch name
         shell: bash
-        run: actions.sh
+        run: |
+            chmod +x "${GITHUB_WORKSPACE}/.github/actions.sh"
+
+            "${GITHUB_WORKSPACE}/.github/actions.sh"
