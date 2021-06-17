@@ -10,4 +10,4 @@ git branch
 
 echo "Feature-5 branch log ***************************"
 
-git log feature-5 --oneline
+git log refs/heads/feature-5
